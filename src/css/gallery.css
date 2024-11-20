@@ -25,8 +25,38 @@ body {
     .gallery-image {
     display: block;
     width: 100%;
-    height: auto;
+    max-height: 200px;
     object-fit: cover;
     }
     
+    .sl-wrapper  {
+        background: rgba(46, 47, 66, 0.8);
+    }
+
+    div.sl-wrapper .sl-counter {
+        color: #fff;
+    }
+
+    .sl-wrapper .sl-navigation button.sl-next{
+        color: #FFFFFF;
+    } 
+
+     .sl-wrapper .sl-navigation button.sl-prev{
+        color: #FFFFFF;
+    }
+
     
+   .sl-wrapper button.sl-close{
+        color: #FFFFFF;
+    }
+
+   .sl-wrapper.sl-image {
+        width: 1112px; 
+        max-height: 640px; 
+        object-fit: cover; 
+    }
+
+    
+
+   
+
